@@ -141,5 +141,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxlwifi/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
     vendor/samsung/gtaxlwifi/proprietary/lib/librilutils.so:system/lib/librilutils.so \
 
+PRODUCT_COPY_FILES += \
+    vendor/samsung/gtaxlwifi/proprietary/bin/prepare_param.sh:system/bin/prepare_param.sh
+
 #    vendor/samsung/gtaxlwifi/proprietary/lib/libril.so:system/lib/libril.so \
 #    vendor/samsung/gtaxlwifi/proprietary/bin/rild:system/bin/rild \
