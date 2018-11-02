@@ -173,3 +173,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxlwifi/proprietary/lib64/libfloatingfeature.so:system/lib64/libfloatingfeature.so \
     vendor/samsung/gtaxlwifi/proprietary/lib64/libprotobuf-cpp-fooo.so:system/lib64/libprotobuf-cpp-fooo.so \
     vendor/samsung/gtaxlwifi/proprietary/lib64/libsecnativefeature.so:system/lib64/libsecnativefeature.so
+
+PRODUCT_COPY_FILES += \
+    vendor/samsung/gtaxlwifi/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
+    vendor/samsung/gtaxlwifi/proprietary/vendor/bin/hw/android.hardware.gnss@1.0-service:system/vendor/bin/hw/android.hardware.gnss@1.0-service \
+    vendor/samsung/gtaxlwifi/proprietary/vendor/etc/init/android.hardware.gnss@1.0-service.rc:system/vendor/etc/init/android.hardware.gnss@1.0-service.rc
+
