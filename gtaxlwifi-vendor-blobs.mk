@@ -203,9 +203,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxlwifi/proprietary/_bsp/lib/libexynosutils.so:system/lib/libexynosutils.so \
     vendor/samsung/gtaxlwifi/proprietary/_bsp/lib/libexynosv4l2.so:system/lib/libexynosv4l2.so \
     vendor/samsung/gtaxlwifi/proprietary/_bsp/lib/libfimg.so:system/lib/libfimg.so \
-    vendor/samsung/gtaxlwifi/proprietary/_bsp/lib/libhdmi.so:system/lib/libhdmi.so \
-    vendor/samsung/gtaxlwifi/proprietary/_bsp/lib/libhwcutils.so:system/lib/libhwcutils.so \
-    vendor/samsung/gtaxlwifi/proprietary/_bsp/lib/libmpp.so:system/lib/libmpp.so \
     vendor/samsung/gtaxlwifi/proprietary/_bsp/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
     vendor/samsung/gtaxlwifi/proprietary/_bsp/lib/omx/libOMX.Exynos.MPEG2.Decoder.so:system/lib/omx/libOMX.Exynos.MPEG2.Decoder.so \
     vendor/samsung/gtaxlwifi/proprietary/_bsp/lib64/hw/hwcomposer.exynos5.so:system/lib64/hw/hwcomposer.exynos5.so \
@@ -217,9 +214,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxlwifi/proprietary/_bsp/lib64/libexynosutils.so:system/lib64/libexynosutils.so \
     vendor/samsung/gtaxlwifi/proprietary/_bsp/lib64/libexynosv4l2.so:system/lib64/libexynosv4l2.so \
     vendor/samsung/gtaxlwifi/proprietary/_bsp/lib64/libfimg.so:system/lib64/libfimg.so \
-    vendor/samsung/gtaxlwifi/proprietary/_bsp/lib64/libhdmi.so:system/lib64/libhdmi.so \
-    vendor/samsung/gtaxlwifi/proprietary/_bsp/lib64/libhwcutils.so:system/lib64/libhwcutils.so \
-    vendor/samsung/gtaxlwifi/proprietary/_bsp/lib64/libmpp.so:system/lib64/libmpp.so \
     vendor/samsung/gtaxlwifi/proprietary/_bsp/lib64/libstagefrighthw.so:system/lib64/libstagefrighthw.so \
     vendor/samsung/gtaxlwifi/proprietary/_bsp/lib64/omx/libOMX.Exynos.MPEG2.Decoder.so:system/lib64/omx/libOMX.Exynos.MPEG2.Decoder.so
 
