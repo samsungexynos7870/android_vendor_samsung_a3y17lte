@@ -150,9 +150,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxlwifi/proprietary/lib/hw/camera.universal7870.so:system/lib/hw/camera.vendor.universal7870.so \
     vendor/samsung/gtaxlwifi/proprietary/lib/libexynoscamera.so:system/lib/libexynoscamera.so \
-    vendor/samsung/gtaxlwifi/proprietary/lib/libexynoscamera3.so:system/lib/libexynoscamera3.so \
-    vendor/samsung/gtaxlwifi/proprietary/lib/libhwjpeg.so:system/lib/libhwjpeg.so \
-    vendor/samsung/gtaxlwifi/proprietary/vendor/lib/libion_exynos.so:system/vendor/lib/libion_exynos.so
+    vendor/samsung/gtaxlwifi/proprietary/lib/libexynoscamera3.so:system/lib/libexynoscamera3.so
 
 # drm
 PRODUCT_COPY_FILES += \
@@ -194,28 +192,40 @@ PRODUCT_COPY_FILES += \
 
 # bsp
 PRODUCT_COPY_FILES += \
-    vendor/samsung/gtaxlwifi/proprietary/_bsp/lib/hw/hwcomposer.exynos5.so:system/lib/hw/hwcomposer.exynos5.so \
-    vendor/samsung/gtaxlwifi/proprietary/_bsp/lib/hw/memtrack.exynos5.so:system/lib/hw/memtrack.exynos5.so \
-    vendor/samsung/gtaxlwifi/proprietary/_bsp/lib/libcsc.so:system/lib/libcsc.so \
-    vendor/samsung/gtaxlwifi/proprietary/_bsp/lib/libexynosdisplay.so:system/lib/libexynosdisplay.so \
-    vendor/samsung/gtaxlwifi/proprietary/_bsp/lib/libexynosgscaler.so:system/lib/libexynosgscaler.so \
-    vendor/samsung/gtaxlwifi/proprietary/_bsp/lib/libexynosscaler.so:system/lib/libexynosscaler.so \
-    vendor/samsung/gtaxlwifi/proprietary/_bsp/lib/libexynosutils.so:system/lib/libexynosutils.so \
-    vendor/samsung/gtaxlwifi/proprietary/_bsp/lib/libexynosv4l2.so:system/lib/libexynosv4l2.so \
-    vendor/samsung/gtaxlwifi/proprietary/_bsp/lib/libfimg.so:system/lib/libfimg.so \
-    vendor/samsung/gtaxlwifi/proprietary/_bsp/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
-    vendor/samsung/gtaxlwifi/proprietary/_bsp/lib/omx/libOMX.Exynos.MPEG2.Decoder.so:system/lib/omx/libOMX.Exynos.MPEG2.Decoder.so \
-    vendor/samsung/gtaxlwifi/proprietary/_bsp/lib64/hw/hwcomposer.exynos5.so:system/lib64/hw/hwcomposer.exynos5.so \
-    vendor/samsung/gtaxlwifi/proprietary/_bsp/lib64/hw/memtrack.exynos5.so:system/lib64/hw/memtrack.exynos5.so \
-    vendor/samsung/gtaxlwifi/proprietary/_bsp/lib64/libcsc.so:system/lib64/libcsc.so \
-    vendor/samsung/gtaxlwifi/proprietary/_bsp/lib64/libexynosdisplay.so:system/lib64/libexynosdisplay.so \
-    vendor/samsung/gtaxlwifi/proprietary/_bsp/lib64/libexynosgscaler.so:system/lib64/libexynosgscaler.so \
-    vendor/samsung/gtaxlwifi/proprietary/_bsp/lib64/libexynosscaler.so:system/lib64/libexynosscaler.so \
-    vendor/samsung/gtaxlwifi/proprietary/_bsp/lib64/libexynosutils.so:system/lib64/libexynosutils.so \
-    vendor/samsung/gtaxlwifi/proprietary/_bsp/lib64/libexynosv4l2.so:system/lib64/libexynosv4l2.so \
-    vendor/samsung/gtaxlwifi/proprietary/_bsp/lib64/libfimg.so:system/lib64/libfimg.so \
-    vendor/samsung/gtaxlwifi/proprietary/_bsp/lib64/libstagefrighthw.so:system/lib64/libstagefrighthw.so \
-    vendor/samsung/gtaxlwifi/proprietary/_bsp/lib64/omx/libOMX.Exynos.MPEG2.Decoder.so:system/lib64/omx/libOMX.Exynos.MPEG2.Decoder.so
+    vendor/samsung/gtaxllte/proprietary/_bsp/lib/hw/hwcomposer.exynos5.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/hwcomposer.exynos5.so \
+    vendor/samsung/gtaxllte/proprietary/_bsp/lib/hw/memtrack.exynos5.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/memtrack.exynos5.so \
+    vendor/samsung/gtaxllte/proprietary/_bsp/lib/libcsc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcsc.so \
+    vendor/samsung/gtaxllte/proprietary/_bsp/lib/libexynosdisplay.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexynosdisplay.so \
+    vendor/samsung/gtaxllte/proprietary/_bsp/lib/libexynosgscaler.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexynosgscaler.so \
+    vendor/samsung/gtaxllte/proprietary/_bsp/lib/libExynosHWCService.so:$(TARGET_COPY_OUT_VENDOR)/lib/libExynosHWCService.so \
+    vendor/samsung/gtaxllte/proprietary/_bsp/lib/libexynosscaler.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexynosscaler.so \
+    vendor/samsung/gtaxllte/proprietary/_bsp/lib/libexynosutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexynosutils.so \
+    vendor/samsung/gtaxllte/proprietary/_bsp/lib/libexynosv4l2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexynosv4l2.so \
+    vendor/samsung/gtaxllte/proprietary/_bsp/lib/libfimg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfimg.so \
+    vendor/samsung/gtaxllte/proprietary/_bsp/lib/libhdmi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhdmi.so \
+    vendor/samsung/gtaxllte/proprietary/_bsp/lib/libhwcutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhwcutils.so \
+    vendor/samsung/gtaxllte/proprietary/_bsp/lib/libhwjpeg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhwjpeg.so \
+    vendor/samsung/gtaxllte/proprietary/_bsp/lib/libion_exynos.so:$(TARGET_COPY_OUT_VENDOR)/lib/libion_exynos.so \
+    vendor/samsung/gtaxllte/proprietary/_bsp/lib/libmpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmpp.so \
+    vendor/samsung/gtaxllte/proprietary/_bsp/lib/libstagefrighthw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefrighthw.so \
+    vendor/samsung/gtaxllte/proprietary/_bsp/lib/omx/libOMX.Exynos.MPEG2.Decoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/omx/libOMX.Exynos.MPEG2.Decoder.so \
+    vendor/samsung/gtaxllte/proprietary/_bsp/lib64/hw/hwcomposer.exynos5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/hwcomposer.exynos5.so \
+    vendor/samsung/gtaxllte/proprietary/_bsp/lib64/hw/memtrack.exynos5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/memtrack.exynos5.so \
+    vendor/samsung/gtaxllte/proprietary/_bsp/lib64/libcsc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcsc.so \
+    vendor/samsung/gtaxllte/proprietary/_bsp/lib64/libexynosdisplay.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libexynosdisplay.so \
+    vendor/samsung/gtaxllte/proprietary/_bsp/lib64/libexynosgscaler.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libexynosgscaler.so \
+    vendor/samsung/gtaxllte/proprietary/_bsp/lib64/libExynosHWCService.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libExynosHWCService.so \
+    vendor/samsung/gtaxllte/proprietary/_bsp/lib64/libexynosscaler.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libexynosscaler.so \
+    vendor/samsung/gtaxllte/proprietary/_bsp/lib64/libexynosutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libexynosutils.so \
+    vendor/samsung/gtaxllte/proprietary/_bsp/lib64/libexynosv4l2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libexynosv4l2.so \
+    vendor/samsung/gtaxllte/proprietary/_bsp/lib64/libfimg.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfimg.so \
+    vendor/samsung/gtaxllte/proprietary/_bsp/lib64/libhdmi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhdmi.so \
+    vendor/samsung/gtaxllte/proprietary/_bsp/lib64/libhwcutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhwcutils.so \
+    vendor/samsung/gtaxllte/proprietary/_bsp/lib64/libhwjpeg.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhwjpeg.so \
+    vendor/samsung/gtaxllte/proprietary/_bsp/lib64/libion_exynos.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libion_exynos.so \
+    vendor/samsung/gtaxllte/proprietary/_bsp/lib64/libmpp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmpp.so \
+    vendor/samsung/gtaxllte/proprietary/_bsp/lib64/libstagefrighthw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstagefrighthw.so \
+    vendor/samsung/gtaxllte/proprietary/_bsp/lib64/omx/libOMX.Exynos.MPEG2.Decoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/omx/libOMX.Exynos.MPEG2.Decoder.so
 
 # camera
 PRODUCT_COPY_FILES += \
