@@ -33,36 +33,13 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxlwifi/proprietary/etc/firmware/wlan/qcom_cfg.ini:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/wlan/qcom_cfg.ini \
     vendor/samsung/gtaxlwifi/proprietary/etc/firmware/wlan/WCNSS_cfg.dat:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/wlan/WCNSS_cfg.dat \
     vendor/samsung/gtaxlwifi/proprietary/etc/srm.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/srm.bin \
-    vendor/samsung/gtaxlwifi/proprietary/lib/hw/audio.primary.universal7870.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/audio.primary.universal7870.so \
     vendor/samsung/gtaxlwifi/proprietary/lib/hw/gralloc.exynos5.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/gralloc.exynos5.so \
-    vendor/samsung/gtaxlwifi/proprietary/lib/lib_DNSe_NRSS_ver226.so:$(TARGET_COPY_OUT_SYSTEM)/lib/lib_DNSe_NRSS_ver226.so \
-    vendor/samsung/gtaxlwifi/proprietary/lib/lib_SamsungRec_V05001.so:$(TARGET_COPY_OUT_SYSTEM)/lib/lib_SamsungRec_V05001.so \
-    vendor/samsung/gtaxlwifi/proprietary/lib/lib_SoundAlive_SRC384_ver300.so:$(TARGET_COPY_OUT_SYSTEM)/lib/lib_SoundAlive_SRC384_ver300.so \
-    vendor/samsung/gtaxlwifi/proprietary/lib/lib_soundaliveresampler.so:$(TARGET_COPY_OUT_SYSTEM)/lib/lib_soundaliveresampler.so \
-    vendor/samsung/gtaxlwifi/proprietary/lib/lib_SoundBooster_ver700.so:$(TARGET_COPY_OUT_SYSTEM)/lib/lib_SoundBooster_ver700.so \
-    vendor/samsung/gtaxlwifi/proprietary/lib/libaudio-ril.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaudio-ril.so \
-    vendor/samsung/gtaxlwifi/proprietary/lib/libaudioroute.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaudioroute.so \
-    vendor/samsung/gtaxlwifi/proprietary/lib/libcodecdump.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libcodecdump.so \
     vendor/samsung/gtaxlwifi/proprietary/lib/libfloatingfeature.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libfloatingfeature.so \
-    vendor/samsung/gtaxlwifi/proprietary/lib/libOpenCv.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libOpenCv.so \
-    vendor/samsung/gtaxlwifi/proprietary/lib/libpreprocessing_nxp.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libpreprocessing_nxp.so \
     vendor/samsung/gtaxlwifi/proprietary/lib/libprotobuf-cpp-fooo.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libprotobuf-cpp-fooo.so \
-    vendor/samsung/gtaxlwifi/proprietary/lib/libreference-ril.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libreference-ril.so \
-    vendor/samsung/gtaxlwifi/proprietary/lib/librilutils.so:$(TARGET_COPY_OUT_SYSTEM)/lib/librilutils.so \
-    vendor/samsung/gtaxlwifi/proprietary/lib/libSamsungPostProcess.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libSamsungPostProcess.so \
-    vendor/samsung/gtaxlwifi/proprietary/lib/libSamsungPostProcessConvertor.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libSamsungPostProcessConvertor.so \
-    vendor/samsung/gtaxlwifi/proprietary/lib/libSamsungPreProcess.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libSamsungPreProcess.so \
-    vendor/samsung/gtaxlwifi/proprietary/lib/libsamsungRecord.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsamsungRecord.so \
-    vendor/samsung/gtaxlwifi/proprietary/lib/libsamsungRecord_ns.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsamsungRecord_ns.so \
-    vendor/samsung/gtaxlwifi/proprietary/lib/libsamsungSoundbooster_plus.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsamsungSoundbooster_plus.so \
-    vendor/samsung/gtaxlwifi/proprietary/lib/libsecaudioinfo.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsecaudioinfo.so \
     vendor/samsung/gtaxlwifi/proprietary/lib/libsecnativefeature.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsecnativefeature.so \
-    vendor/samsung/gtaxlwifi/proprietary/lib/libsecril-client.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsecril-client.so \
     vendor/samsung/gtaxlwifi/proprietary/lib/libsensorlistener.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsensorlistener.so \
     vendor/samsung/gtaxlwifi/proprietary/lib/libsomp.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsomp.so \
     vendor/samsung/gtaxlwifi/proprietary/lib/libstainkiller.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libstainkiller.so \
-    vendor/samsung/gtaxlwifi/proprietary/lib/libtinyalsa.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libtinyalsa.so \
-    vendor/samsung/gtaxlwifi/proprietary/lib/libtinycompress.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libtinycompress.so \
     vendor/samsung/gtaxlwifi/proprietary/lib/libuniplugin.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libuniplugin.so \
     vendor/samsung/gtaxlwifi/proprietary/lib64/hw/gralloc.exynos5.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/hw/gralloc.exynos5.so \
     vendor/samsung/gtaxlwifi/proprietary/vendor/bin/wcnss_filter:$(TARGET_COPY_OUT_VENDOR)/bin/wcnss_filter \
