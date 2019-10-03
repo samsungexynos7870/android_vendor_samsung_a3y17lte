@@ -35,13 +35,13 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxlwifi/proprietary/etc/srm.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/srm.bin \
     vendor/samsung/gtaxlwifi/proprietary/lib/hw/gralloc.exynos5.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/gralloc.exynos5.so \
     vendor/samsung/gtaxlwifi/proprietary/lib/libfloatingfeature.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libfloatingfeature.so \
-    vendor/samsung/gtaxlwifi/proprietary/lib/libprotobuf-cpp-fooo.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libprotobuf-cpp-fooo.so \
     vendor/samsung/gtaxlwifi/proprietary/lib/libsecnativefeature.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsecnativefeature.so \
     vendor/samsung/gtaxlwifi/proprietary/lib/libsensorlistener.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsensorlistener.so \
     vendor/samsung/gtaxlwifi/proprietary/lib/libsomp.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsomp.so \
     vendor/samsung/gtaxlwifi/proprietary/lib/libstainkiller.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libstainkiller.so \
     vendor/samsung/gtaxlwifi/proprietary/lib/libuniplugin.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libuniplugin.so \
     vendor/samsung/gtaxlwifi/proprietary/lib64/hw/gralloc.exynos5.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/hw/gralloc.exynos5.so \
+    vendor/samsung/gtaxlwifi/proprietary/lib64/libfloatingfeature.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libfloatingfeature.so \
     vendor/samsung/gtaxlwifi/proprietary/vendor/bin/wcnss_filter:$(TARGET_COPY_OUT_VENDOR)/bin/wcnss_filter \
     vendor/samsung/gtaxlwifi/proprietary/vendor/firmware/fimc_is_lib.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/fimc_is_lib.bin \
     vendor/samsung/gtaxlwifi/proprietary/vendor/firmware/mfc_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mfc_fw.bin \
@@ -49,8 +49,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxlwifi/proprietary/vendor/firmware/setfile_sr259.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_sr259.bin \
     vendor/samsung/gtaxlwifi/proprietary/vendor/lib/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLES_mali.so \
     vendor/samsung/gtaxlwifi/proprietary/vendor/lib/libLifevibes_lvverx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libLifevibes_lvverx.so \
-    vendor/samsung/gtaxlwifi/proprietary/vendor/lib/libLifevibes_lvvetx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libLifevibes_lvvetx.so
-
+    vendor/samsung/gtaxlwifi/proprietary/vendor/lib/libLifevibes_lvvetx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libLifevibes_lvvetx.so \
+    vendor/samsung/gtaxlwifi/proprietary/vendor/lib64/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLES_mali.so
 
 # omx stuff
 PRODUCT_COPY_FILES += \
@@ -87,6 +87,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxlwifi/proprietary/lib/libexynoscamera.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libexynoscamera.so \
     vendor/samsung/gtaxlwifi/proprietary/lib/libexynoscamera3.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libexynoscamera3.so
 
+PRODUCT_COPY_FILES += \
+    vendor/samsung/gtaxlwifi/proprietary/_camera/vendor/lib/hw/android.hardware.camera.provider@2.4-impl.exynos7870.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.camera.provider@2.4-impl.exynos7870.so \
+    vendor/samsung/gtaxlwifi/proprietary/_camera/vendor/lib64/hw/android.hardware.camera.provider@2.4-impl.exynos7870.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.camera.provider@2.4-impl.exynos7870.so
+
 # drm
 PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxlwifi/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libwvdrmengine.so
@@ -97,12 +101,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxlwifi/proprietary/lib/libaptXHD_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaptXHD_encoder.so \
     vendor/samsung/gtaxlwifi/proprietary/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaptX_encoder.so \
     vendor/samsung/gtaxlwifi/proprietary/lib64/libaptXHD_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaptXHD_encoder.so
-
-PRODUCT_COPY_FILES += \
-    vendor/samsung/gtaxlwifi/proprietary/vendor/lib64/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLES_mali.so \
-    vendor/samsung/gtaxlwifi/proprietary/lib64/libfloatingfeature.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libfloatingfeature.so \
-    vendor/samsung/gtaxlwifi/proprietary/lib64/libprotobuf-cpp-fooo.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libprotobuf-cpp-fooo.so \
-    vendor/samsung/gtaxlwifi/proprietary/lib64/libsecnativefeature.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsecnativefeature.so
 
 # bsp
 PRODUCT_COPY_FILES += \
@@ -141,16 +139,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxlwifi/proprietary/_bsp/lib64/libstagefrighthw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstagefrighthw.so \
     vendor/samsung/gtaxlwifi/proprietary/_bsp/lib64/omx/libOMX.Exynos.MPEG2.Decoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/omx/libOMX.Exynos.MPEG2.Decoder.so
 
-# camera
-PRODUCT_COPY_FILES += \
-    vendor/samsung/gtaxlwifi/proprietary/_camera/vendor/lib/hw/android.hardware.camera.provider@2.4-impl.exynos7870.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.camera.provider@2.4-impl.exynos7870.so \
-    vendor/samsung/gtaxlwifi/proprietary/_camera/vendor/lib64/hw/android.hardware.camera.provider@2.4-impl.exynos7870.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.camera.provider@2.4-impl.exynos7870.so
-
 # gps add
 PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxlwifi/proprietary/_gps/etc/ca.pem:$(TARGET_COPY_OUT_SYSTEM)/etc/ca.pem \
-    vendor/samsung/gtaxlwifi/proprietary/_gps/etc/plmn_delta.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/plmn_delta.bin \
-    vendor/samsung/gtaxlwifi/proprietary/_gps/etc/plmn_se13.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/plmn_se13.bin \
     vendor/samsung/gtaxlwifi/proprietary/_gps/lib/hw/gps.default.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/gps.default.so \
     vendor/samsung/gtaxlwifi/proprietary/_gps/vendor/bin/hw/gpsd:$(TARGET_COPY_OUT_VENDOR)/bin/hw/gpsd \
     vendor/samsung/gtaxlwifi/proprietary/_gps/vendor/bin/hw/android.hardware.gnss@1.0-service-samsung:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.gnss@1.0-service-samsung \
