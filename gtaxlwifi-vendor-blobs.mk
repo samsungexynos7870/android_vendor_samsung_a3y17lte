@@ -197,3 +197,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxlwifi/proprietary/_sound/from_stock/lib/libsecril-client.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsecril-client.so \
     vendor/samsung/gtaxlwifi/proprietary/_sound/from_stock/lib/libtinyalsa.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libtinyalsa.so \
     vendor/samsung/gtaxlwifi/proprietary/_sound/from_stock/lib/libtinycompress.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libtinycompress.so
+
+# sensors
+PRODUCT_COPY_FILES += \
+    vendor/samsung/gtaxlwifi/proprietary/_sensors/vendor/bin/hw/android.hardware.sensors@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.sensors@1.0-service \
+    vendor/samsung/gtaxlwifi/proprietary/_sensors/vendor/etc/init/android.hardware.sensors@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.sensors@1.0-service.rc \
+    vendor/samsung/gtaxlwifi/proprietary/_sensors/vendor/lib/hw/sensors.universal7870.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sensors.universal7870.so
