@@ -145,7 +145,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxlwifi/proprietary/_gps/lib/hw/gps.default.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/gps.default.so \
     vendor/samsung/gtaxlwifi/proprietary/_gps/vendor/bin/hw/gpsd:$(TARGET_COPY_OUT_VENDOR)/bin/hw/gpsd \
     vendor/samsung/gtaxlwifi/proprietary/_gps/vendor/bin/hw/android.hardware.gnss@1.0-service-samsung:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.gnss@1.0-service-samsung \
-    vendor/samsung/gtaxlwifi/proprietary/_gps/vendor/etc/init/android.hardware.gnss@1.0-service-samsung.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gnss@1.0-service-samsung.rc
+    vendor/samsung/gtaxlwifi/proprietary/_gps/vendor/etc/init/android.hardware.gnss@1.0-service-samsung.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gnss@1.0-service-samsung.rc \
+    vendor/samsung/gtaxlwifi/proprietary/_gps/vendor/lib/hw/android.hardware.gnss@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.gnss@1.0-impl.so
 
 # sensors
 PRODUCT_COPY_FILES += \
