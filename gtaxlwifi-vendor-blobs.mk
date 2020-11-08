@@ -81,22 +81,22 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxlwifi/proprietary/lib64/omx/libOMX.Exynos.VP9.Decoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/omx/libOMX.Exynos.VP9.Decoder.so \
     vendor/samsung/gtaxlwifi/proprietary/lib64/omx/libOMX.Exynos.WMV.Decoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/omx/libOMX.Exynos.WMV.Decoder.so
 
-# camera
+# Camera
 PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxlwifi/proprietary/lib/hw/camera.vendor.universal7870.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/camera.vendor.universal7870.so \
     vendor/samsung/gtaxlwifi/proprietary/lib/libexynoscamera.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libexynoscamera.so \
     vendor/samsung/gtaxlwifi/proprietary/lib/libexynoscamera3.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libexynoscamera3.so
 
-# drm
+# DRM
 PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxlwifi/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libwvdrmengine.so
 
-# aptx
+# aptX
 PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxlwifi/proprietary/product/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libaptX_encoder.so \
     vendor/samsung/gtaxlwifi/proprietary/product/lib64/libaptXHD_encoder.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libaptXHD_encoder.so
 
-# bsp
+# BSP
 PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxlwifi/proprietary/_bsp/lib/hw/hwcomposer.exynos5.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/hwcomposer.exynos5.so \
     vendor/samsung/gtaxlwifi/proprietary/_bsp/lib/hw/memtrack.exynos5.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/memtrack.exynos5.so \
@@ -133,16 +133,13 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxlwifi/proprietary/_bsp/lib64/libstagefrighthw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstagefrighthw.so \
     vendor/samsung/gtaxlwifi/proprietary/_bsp/lib64/omx/libOMX.Exynos.MPEG2.Decoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/omx/libOMX.Exynos.MPEG2.Decoder.so
 
-# gps add
+# GPS
 PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxlwifi/proprietary/_gps/etc/ca.pem:$(TARGET_COPY_OUT_SYSTEM)/etc/ca.pem \
     vendor/samsung/gtaxlwifi/proprietary/_gps/lib/hw/gps.default.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/gps.default.so \
-    vendor/samsung/gtaxlwifi/proprietary/_gps/vendor/bin/hw/gpsd:$(TARGET_COPY_OUT_VENDOR)/bin/hw/gpsd \
-    vendor/samsung/gtaxlwifi/proprietary/_gps/vendor/bin/hw/android.hardware.gnss@1.0-service-samsung:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.gnss@1.0-service-samsung \
-    vendor/samsung/gtaxlwifi/proprietary/_gps/vendor/etc/init/android.hardware.gnss@1.0-service-samsung.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gnss@1.0-service-samsung.rc \
-    vendor/samsung/gtaxlwifi/proprietary/_gps/vendor/lib/hw/android.hardware.gnss@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.gnss@1.0-impl.so
+    vendor/samsung/gtaxlwifi/proprietary/_gps/vendor/bin/hw/gpsd:$(TARGET_COPY_OUT_VENDOR)/bin/hw/gpsd
 
-# sensors
+# Sensors
 PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxlwifi/proprietary/_sensors/vendor/bin/hw/android.hardware.sensors@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.sensors@1.0-service \
     vendor/samsung/gtaxlwifi/proprietary/_sensors/vendor/etc/init/android.hardware.sensors@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.sensors@1.0-service.rc \
