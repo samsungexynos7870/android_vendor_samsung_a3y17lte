@@ -101,7 +101,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxlwifi/proprietary/_bsp/lib/libion_exynos.so:$(TARGET_COPY_OUT_VENDOR)/lib/libion_exynos.so \
     vendor/samsung/gtaxlwifi/proprietary/_bsp/lib/libmpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmpp.so \
     vendor/samsung/gtaxlwifi/proprietary/_bsp/lib/libstagefrighthw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefrighthw.so \
-    vendor/samsung/gtaxlwifi/proprietary/_bsp/lib/omx/libOMX.Exynos.MPEG2.Decoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/omx/libOMX.Exynos.MPEG2.Decoder.so \
     vendor/samsung/gtaxlwifi/proprietary/_bsp/lib64/hw/hwcomposer.exynos5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/hwcomposer.exynos5.so \
     vendor/samsung/gtaxlwifi/proprietary/_bsp/lib64/hw/memtrack.exynos5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/memtrack.exynos5.so \
     vendor/samsung/gtaxlwifi/proprietary/_bsp/lib64/libcsc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcsc.so \
@@ -117,8 +116,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxlwifi/proprietary/_bsp/lib64/libhwjpeg.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhwjpeg.so \
     vendor/samsung/gtaxlwifi/proprietary/_bsp/lib64/libion_exynos.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libion_exynos.so \
     vendor/samsung/gtaxlwifi/proprietary/_bsp/lib64/libmpp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmpp.so \
-    vendor/samsung/gtaxlwifi/proprietary/_bsp/lib64/libstagefrighthw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstagefrighthw.so \
-    vendor/samsung/gtaxlwifi/proprietary/_bsp/lib64/omx/libOMX.Exynos.MPEG2.Decoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/omx/libOMX.Exynos.MPEG2.Decoder.so
+    vendor/samsung/gtaxlwifi/proprietary/_bsp/lib64/libstagefrighthw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstagefrighthw.so
 
 # GPS
 PRODUCT_COPY_FILES += \
