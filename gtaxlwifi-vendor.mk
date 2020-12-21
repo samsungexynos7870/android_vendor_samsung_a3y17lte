@@ -30,21 +30,21 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxlwifi/proprietary/etc/firmware/utfbd30.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/utfbd30.bin \
     vendor/samsung/gtaxlwifi/proprietary/etc/firmware/utfbd32.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/utfbd32.bin \
     vendor/samsung/gtaxlwifi/proprietary/etc/srm.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/srm.bin \
-    vendor/samsung/gtaxlwifi/proprietary/lib/hw/gralloc.exynos5.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/gralloc.exynos5.so \
     vendor/samsung/gtaxlwifi/proprietary/lib/libsecnativefeature.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsecnativefeature.so \
     vendor/samsung/gtaxlwifi/proprietary/lib/libsensorlistener.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsensorlistener.so \
     vendor/samsung/gtaxlwifi/proprietary/lib/libstainkiller.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libstainkiller.so \
     vendor/samsung/gtaxlwifi/proprietary/lib/libuniplugin.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libuniplugin.so \
-    vendor/samsung/gtaxlwifi/proprietary/lib64/hw/gralloc.exynos5.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/hw/gralloc.exynos5.so \
     vendor/samsung/gtaxlwifi/proprietary/vendor/bin/wcnss_filter:$(TARGET_COPY_OUT_VENDOR)/bin/wcnss_filter \
     vendor/samsung/gtaxlwifi/proprietary/vendor/firmware/fimc_is_lib.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/fimc_is_lib.bin \
     vendor/samsung/gtaxlwifi/proprietary/vendor/firmware/mfc_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mfc_fw.bin \
     vendor/samsung/gtaxlwifi/proprietary/vendor/firmware/setfile_4h5yc.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_4h5yc.bin \
     vendor/samsung/gtaxlwifi/proprietary/vendor/firmware/setfile_sr259.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_sr259.bin \
     vendor/samsung/gtaxlwifi/proprietary/vendor/lib/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLES_mali.so \
-    vendor/samsung/gtaxlwifi/proprietary/vendor/lib64/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLES_mali.so
+    vendor/samsung/gtaxlwifi/proprietary/vendor/lib/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vulkan.exynos5.so \
+    vendor/samsung/gtaxlwifi/proprietary/vendor/lib64/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLES_mali.so \
+    vendor/samsung/gtaxlwifi/proprietary/vendor/lib64/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vulkan.exynos5.so
 
-# OMX stuff
+# OMX
 PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxlwifi/proprietary/lib/libExynosOMX_Core.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libExynosOMX_Core.so \
     vendor/samsung/gtaxlwifi/proprietary/lib/libExynosOMX_Resourcemanager.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libExynosOMX_Resourcemanager.so \
@@ -84,41 +84,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxlwifi/proprietary/product/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libaptX_encoder.so \
     vendor/samsung/gtaxlwifi/proprietary/product/lib64/libaptXHD_encoder.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libaptXHD_encoder.so
 
-# BSP
-PRODUCT_COPY_FILES += \
-    vendor/samsung/gtaxlwifi/proprietary/_bsp/lib/hw/hwcomposer.exynos5.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/hwcomposer.exynos5.so \
-    vendor/samsung/gtaxlwifi/proprietary/_bsp/lib/hw/memtrack.exynos5.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/memtrack.exynos5.so \
-    vendor/samsung/gtaxlwifi/proprietary/_bsp/lib/libcsc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcsc.so \
-    vendor/samsung/gtaxlwifi/proprietary/_bsp/lib/libexynosdisplay.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexynosdisplay.so \
-    vendor/samsung/gtaxlwifi/proprietary/_bsp/lib/libexynosgscaler.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexynosgscaler.so \
-    vendor/samsung/gtaxlwifi/proprietary/_bsp/lib/libExynosHWCService.so:$(TARGET_COPY_OUT_VENDOR)/lib/libExynosHWCService.so \
-    vendor/samsung/gtaxlwifi/proprietary/_bsp/lib/libexynosscaler.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexynosscaler.so \
-    vendor/samsung/gtaxlwifi/proprietary/_bsp/lib/libexynosutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexynosutils.so \
-    vendor/samsung/gtaxlwifi/proprietary/_bsp/lib/libexynosv4l2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexynosv4l2.so \
-    vendor/samsung/gtaxlwifi/proprietary/_bsp/lib/libfimg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfimg.so \
-    vendor/samsung/gtaxlwifi/proprietary/_bsp/lib/libhdmi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhdmi.so \
-    vendor/samsung/gtaxlwifi/proprietary/_bsp/lib/libhwcutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhwcutils.so \
-    vendor/samsung/gtaxlwifi/proprietary/_bsp/lib/libhwjpeg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhwjpeg.so \
-    vendor/samsung/gtaxlwifi/proprietary/_bsp/lib/libion_exynos.so:$(TARGET_COPY_OUT_VENDOR)/lib/libion_exynos.so \
-    vendor/samsung/gtaxlwifi/proprietary/_bsp/lib/libmpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmpp.so \
-    vendor/samsung/gtaxlwifi/proprietary/_bsp/lib/libstagefrighthw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefrighthw.so \
-    vendor/samsung/gtaxlwifi/proprietary/_bsp/lib64/hw/hwcomposer.exynos5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/hwcomposer.exynos5.so \
-    vendor/samsung/gtaxlwifi/proprietary/_bsp/lib64/hw/memtrack.exynos5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/memtrack.exynos5.so \
-    vendor/samsung/gtaxlwifi/proprietary/_bsp/lib64/libcsc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcsc.so \
-    vendor/samsung/gtaxlwifi/proprietary/_bsp/lib64/libexynosdisplay.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libexynosdisplay.so \
-    vendor/samsung/gtaxlwifi/proprietary/_bsp/lib64/libexynosgscaler.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libexynosgscaler.so \
-    vendor/samsung/gtaxlwifi/proprietary/_bsp/lib64/libExynosHWCService.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libExynosHWCService.so \
-    vendor/samsung/gtaxlwifi/proprietary/_bsp/lib64/libexynosscaler.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libexynosscaler.so \
-    vendor/samsung/gtaxlwifi/proprietary/_bsp/lib64/libexynosutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libexynosutils.so \
-    vendor/samsung/gtaxlwifi/proprietary/_bsp/lib64/libexynosv4l2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libexynosv4l2.so \
-    vendor/samsung/gtaxlwifi/proprietary/_bsp/lib64/libfimg.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfimg.so \
-    vendor/samsung/gtaxlwifi/proprietary/_bsp/lib64/libhdmi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhdmi.so \
-    vendor/samsung/gtaxlwifi/proprietary/_bsp/lib64/libhwcutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhwcutils.so \
-    vendor/samsung/gtaxlwifi/proprietary/_bsp/lib64/libhwjpeg.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhwjpeg.so \
-    vendor/samsung/gtaxlwifi/proprietary/_bsp/lib64/libion_exynos.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libion_exynos.so \
-    vendor/samsung/gtaxlwifi/proprietary/_bsp/lib64/libmpp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmpp.so \
-    vendor/samsung/gtaxlwifi/proprietary/_bsp/lib64/libstagefrighthw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstagefrighthw.so
-
 # GPS
 PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxlwifi/proprietary/_gps/lib/hw/gps.default.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/gps.default.so \
@@ -127,10 +92,6 @@ PRODUCT_COPY_FILES += \
 # Sensors
 PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxlwifi/proprietary/_sensors/vendor/lib/hw/sensors.universal7870.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sensors.universal7870.so
-
-PRODUCT_COPY_FILES += \
-    vendor/samsung/gtaxlwifi/proprietary/vendor/lib/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vulkan.exynos5.so \
-    vendor/samsung/gtaxlwifi/proprietary/vendor/lib64/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vulkan.exynos5.so
 
 # Create Mali links for Vulkan and OpenCL
 PRODUCT_PACKAGES += libGLES_mali
