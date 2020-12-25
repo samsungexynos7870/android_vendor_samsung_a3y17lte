@@ -109,7 +109,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxlwifi/proprietary/_audio/libtinyals_.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtinyals_.so \
     vendor/samsung/gtaxlwifi/proprietary/_audio/libtinycompress_.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtinycompress_.so \
     vendor/samsung/gtaxlwifi/proprietary/_audio/libvndsecril-client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvndsecril-client.so \
-    vendor/samsung/gtaxlwifi/proprietary/_audio/libfloatingfeature_.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfloatingfeature_.so \
+    vendor/samsung/gtaxlwifi/proprietary/_audio/libfloatingfeature.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfloatingfeature.so \
     vendor/samsung/gtaxlwifi/proprietary/_audio/libLifevibes_lvverx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libLifevibes_lvverx.so \
     vendor/samsung/gtaxlwifi/proprietary/_audio/libLifevibes_lvvetx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libLifevibes_lvvetx.so
 
