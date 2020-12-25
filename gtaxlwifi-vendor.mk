@@ -76,9 +76,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxlwifi/proprietary/lib/libuniplugin.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libuniplugin.so \
     vendor/samsung/gtaxlwifi/proprietary/vendor/lib/libstainkiller.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstainkiller.so
 
-# DRM - apparently from some firmware for the Google Pixel 2
+# DRM - from "crosshatch-user 10 QQ3A.200805.001 6578210 release-keys"
 PRODUCT_COPY_FILES += \
-    vendor/samsung/gtaxlwifi/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libwvdrmengine.so
+    vendor/samsung/gtaxlwifi/proprietary/vendor/lib64/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwvhidl.so \
+    vendor/samsung/gtaxlwifi/proprietary/vendor/etc/init/android.hardware.drm@1.2-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.2-service.widevine.rc \
+    vendor/samsung/gtaxlwifi/proprietary/vendor/bin/hw/android.hardware.drm@1.2-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.2-service.widevine
 
 # aptX - from "crosshatch-user 10 QP1A.190711.020 5800535 release-keys"
 PRODUCT_COPY_FILES += \
