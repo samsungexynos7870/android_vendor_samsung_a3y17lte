@@ -87,10 +87,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxlwifi/proprietary/vendor/etc/init/android.hardware.drm@1.3-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.3-service.widevine.rc \
     vendor/samsung/gtaxlwifi/proprietary/vendor/bin/hw/android.hardware.drm@1.3-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.3-service.widevine
 
-# aptX - from "crosshatch-user 10 QP1A.190711.020 5800535 release-keys"
+# aptX - from "crosshatch-user 11 RQ1A.201205.003 6906706 release-keys"
 PRODUCT_COPY_FILES += \
-    vendor/samsung/gtaxlwifi/proprietary/product/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libaptX_encoder.so \
-    vendor/samsung/gtaxlwifi/proprietary/product/lib64/libaptXHD_encoder.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libaptXHD_encoder.so
+    vendor/samsung/gtaxlwifi/proprietary/system_ext/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libaptX_encoder.so \
+    vendor/samsung/gtaxlwifi/proprietary/system_ext/lib64/libaptXHD_encoder.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libaptXHD_encoder.so
 
 # GPS - from T580XXS5CTK1/T580XXS5CTD1
 # Modifications made to gpsd to get it to work:
