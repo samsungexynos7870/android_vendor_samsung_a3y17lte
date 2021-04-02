@@ -42,9 +42,7 @@ PRODUCT_COPY_FILES += \
 # Mali graphics - r28p0 - from the 9.0 SM-A720S stock firmware
 PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxlwifi/proprietary/vendor/lib/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLES_mali.so \
-    vendor/samsung/gtaxlwifi/proprietary/vendor/lib/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vulkan.exynos5.so \
-    vendor/samsung/gtaxlwifi/proprietary/vendor/lib64/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLES_mali.so \
-    vendor/samsung/gtaxlwifi/proprietary/vendor/lib64/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vulkan.exynos5.so
+    vendor/samsung/gtaxlwifi/proprietary/vendor/lib64/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLES_mali.so
 
 # OMX - from A520FXXUGCTI9
 PRODUCT_COPY_FILES += \
@@ -130,5 +128,5 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxlwifi/proprietary/vendor/bin/wcnss_filter:$(TARGET_COPY_OUT_VENDOR)/bin/wcnss_filter
 
-# Create Mali symlinks for OpenCL
+# Create Mali symlinks for Vulkan and OpenCL
 PRODUCT_PACKAGES += libGLES_mali
