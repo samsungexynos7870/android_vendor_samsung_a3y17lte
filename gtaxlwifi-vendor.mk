@@ -17,7 +17,7 @@
 PRODUCT_SOONG_NAMESPACES += \
     vendor/samsung/gtaxlwifi
 
-# Firmware - from T580XXS5CTK1/T580XXS5CTD1 (no changes to vendor blobs between those versions)
+# Firmware - from T585XXS6CTJ7
 PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxlwifi/proprietary/etc/firmware/bdwlan30.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/bdwlan30.bin \
     vendor/samsung/gtaxlwifi/proprietary/etc/firmware/bdwlan32.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/bdwlan32.bin \
