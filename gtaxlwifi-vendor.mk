@@ -22,17 +22,17 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxlwifi/proprietary/etc/firmware/bdwlan30.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/bdwlan30.bin \
     vendor/samsung/gtaxlwifi/proprietary/etc/firmware/bdwlan32.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/bdwlan32.bin \
     vendor/samsung/gtaxlwifi/proprietary/etc/firmware/Data.msc:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/Data.msc \
-    vendor/samsung/gtaxlwifi/proprietary/etc/firmware/nvm_tlv_tf_1.1.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/nvm_tlv_tf_1.1.bin \
     vendor/samsung/gtaxlwifi/proprietary/etc/firmware/otp30.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/otp30.bin \
     vendor/samsung/gtaxlwifi/proprietary/etc/firmware/qwlan30.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/qwlan30.bin \
     vendor/samsung/gtaxlwifi/proprietary/etc/firmware/qwlan30_ibss.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/qwlan30_ibss.bin \
-    vendor/samsung/gtaxlwifi/proprietary/etc/firmware/rampatch_tlv_tf_1.1.tlv:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/rampatch_tlv_tf_1.1.tlv \
     vendor/samsung/gtaxlwifi/proprietary/etc/firmware/utf30.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/utf30.bin \
     vendor/samsung/gtaxlwifi/proprietary/etc/firmware/utfbd30.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/utfbd30.bin \
     vendor/samsung/gtaxlwifi/proprietary/etc/firmware/utfbd32.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/utfbd32.bin \
     vendor/samsung/gtaxlwifi/proprietary/vendor/firmware/fimc_is_lib.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/fimc_is_lib.bin \
     vendor/samsung/gtaxlwifi/proprietary/vendor/firmware/setfile_4h5yc.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_4h5yc.bin \
-    vendor/samsung/gtaxlwifi/proprietary/vendor/firmware/setfile_sr259.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_sr259.bin
+    vendor/samsung/gtaxlwifi/proprietary/vendor/firmware/setfile_sr259.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_sr259.bin \
+    vendor/samsung/gtaxlwifi/proprietary/vendor/firmware/nvm_tlv_tf_1.1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nvm_tlv_tf_1.1.bin \
+    vendor/samsung/gtaxlwifi/proprietary/vendor/firmware/rampatch_tlv_tf_1.1.tlv:$(TARGET_COPY_OUT_VENDOR)/firmware/rampatch_tlv_tf_1.1.tlv
 
 # MFC (Multi Format Codec) firmware - from M105FDDU3CTK3
 # Version information: "MFC v10.11, F/W: 19yy, 02mm, 08dd"
