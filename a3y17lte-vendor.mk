@@ -20,7 +20,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a3y17lte/proprietary/vendor/bin/wcnss_filter:$(TARGET_COPY_OUT_VENDOR)/bin/wcnss_filter \
     vendor/samsung/a3y17lte/proprietary/vendor/etc/nfc/sec_s3nrn81_rfreg.bin:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/sec_s3nrn81_rfreg.bin \
     vendor/samsung/a3y17lte/proprietary/vendor/etc/nfc/sec_s3nrn81_rfreg.fl:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/sec_s3nrn81_rfreg.fl \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/Tfa9896.cnt:$(TARGET_COPY_OUT_VENDOR)/etc/Tfa9896.cnt \
     vendor/samsung/a3y17lte/proprietary/vendor/etc/firmware/nvm_tlv_tf_1.1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/nvm_tlv_tf_1.1.bin \
     vendor/samsung/a3y17lte/proprietary/vendor/etc/firmware/rampatch_tlv_tf_1.1.tlv:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/rampatch_tlv_tf_1.1.tlv \
     vendor/samsung/a3y17lte/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.samsung.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint@2.1-service.samsung.rc \
