@@ -40,7 +40,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a3y17lte/proprietary/vendor/firmware/utfbd30.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/utfbd30.bin \
     vendor/samsung/a3y17lte/proprietary/vendor/firmware/utfbd32.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/utfbd32.bin \
     vendor/samsung/a3y17lte/proprietary/vendor/lib/com.qualcomm.qti.ant@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.ant@1.0.so \
-    vendor/samsung/a3y17lte/proprietary/vendor/lib/hw/android.hardware.bluetooth@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.bluetooth@1.0-impl.so \
+    vendor/samsung/a3y17lte/proprietary/vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so \
     vendor/samsung/a3y17lte/proprietary/vendor/lib/hw/com.qualcomm.qti.ant@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/com.qualcomm.qti.ant@1.0-impl.so \
     vendor/samsung/a3y17lte/proprietary/vendor/lib/hw/sensors.universal7870.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sensors.universal7870.so \
     vendor/samsung/a3y17lte/proprietary/vendor/lib/libantradio.so:$(TARGET_COPY_OUT_VENDOR)/lib/libantradio.so \
@@ -54,7 +54,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a3y17lte/proprietary/vendor/lib/libsynaFpSensorTestNwd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsynaFpSensorTestNwd.so \
     vendor/samsung/a3y17lte/proprietary/vendor/lib/vendor.samsung.hardware.bluetooth@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.bluetooth@1.0.so \
     vendor/samsung/a3y17lte/proprietary/vendor/lib64/com.qualcomm.qti.ant@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.ant@1.0.so \
-    vendor/samsung/a3y17lte/proprietary/vendor/lib64/hw/android.hardware.bluetooth@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.bluetooth@1.0-impl.so \
+    vendor/samsung/a3y17lte/proprietary/vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so \
     vendor/samsung/a3y17lte/proprietary/vendor/lib64/hw/com.qualcomm.qti.ant@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/com.qualcomm.qti.ant@1.0-impl.so \
     vendor/samsung/a3y17lte/proprietary/vendor/lib64/libantradio.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libantradio.so \
     vendor/samsung/a3y17lte/proprietary/vendor/lib64/vendor.samsung.hardware.bluetooth@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.bluetooth@1.0.so
