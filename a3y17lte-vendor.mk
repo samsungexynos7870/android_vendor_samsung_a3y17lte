@@ -66,11 +66,14 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/samsung/a3y17lte/proprietary/vendor/lib/com.qualcomm.qti.ant@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.ant@1.0.so \
     vendor/samsung/a3y17lte/proprietary/vendor/lib/hw/com.qualcomm.qti.ant@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/com.qualcomm.qti.ant@1.0-impl.so \
-    vendor/samsung/a3y17lte/proprietary/vendor/lib/hw/sensors.universal7870.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sensors.universal7870.so \
     vendor/samsung/a3y17lte/proprietary/vendor/lib/libantradio.so:$(TARGET_COPY_OUT_VENDOR)/lib/libantradio.so \
     vendor/samsung/a3y17lte/proprietary/vendor/lib64/com.qualcomm.qti.ant@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.ant@1.0.so \
     vendor/samsung/a3y17lte/proprietary/vendor/lib64/hw/com.qualcomm.qti.ant@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/com.qualcomm.qti.ant@1.0-impl.so \
     vendor/samsung/a3y17lte/proprietary/vendor/lib64/libantradio.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libantradio.so
+
+# Sensors
+PRODUCT_COPY_FILES += \
+    vendor/samsung/a3y17lte/proprietary/vendor/lib/hw/sensors.universal7870.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sensors.universal7870.so
     
 # Fingerprint
 PRODUCT_COPY_FILES += \
