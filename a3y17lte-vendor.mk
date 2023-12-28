@@ -17,6 +17,14 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a3y17lte/proprietary/vendor/firmware/utf30.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/utf30.bin \
     vendor/samsung/a3y17lte/proprietary/vendor/firmware/utfbd30.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/utfbd30.bin \
     vendor/samsung/a3y17lte/proprietary/vendor/firmware/utfbd32.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/utfbd32.bin \
+    vendor/samsung/a3y17lte/proprietary/system/lib/com.qualcomm.qti.ant@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/com.qualcomm.qti.ant@1.0.so \
+    vendor/samsung/a3y17lte/proprietary/vendor/lib/com.qualcomm.qti.ant@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.ant@1.0.so \
+    vendor/samsung/a3y17lte/proprietary/system/lib/libantradio.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libantradio.so \
+    vendor/samsung/a3y17lte/proprietary/vendor/lib/libantradio.so:$(TARGET_COPY_OUT_VENDOR)/lib/libantradio.so \
+    vendor/samsung/a3y17lte/proprietary/system/lib64/com.qualcomm.qti.ant@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/com.qualcomm.qti.ant@1.0.so \
+    vendor/samsung/a3y17lte/proprietary/vendor/lib64/com.qualcomm.qti.ant@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.ant@1.0.so \
+    vendor/samsung/a3y17lte/proprietary/system/lib64/libantradio.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libantradio.so \
+    vendor/samsung/a3y17lte/proprietary/vendor/lib64/libantradio.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libantradio.so \
     vendor/samsung/a3y17lte/proprietary/vendor/app/mcRegistry/07010000000000000000000000000000.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/07010000000000000000000000000000.tlbin \
     vendor/samsung/a3y17lte/proprietary/vendor/app/mcRegistry/07060000000000000000000000000000.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/07060000000000000000000000000000.tlbin \
     vendor/samsung/a3y17lte/proprietary/vendor/app/mcRegistry/08130000000000000000000000000000.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/08130000000000000000000000000000.tlbin \
@@ -45,8 +53,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a3y17lte/proprietary/vendor/etc/Tfa9896.cnt:$(TARGET_COPY_OUT_VENDOR)/etc/Tfa9896.cnt \
     vendor/samsung/a3y17lte/proprietary/vendor/etc/init/sec.android.hardware.nfc@1.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/sec.android.hardware.nfc@1.2-service.rc \
     vendor/samsung/a3y17lte/proprietary/vendor/etc/libnfc-sec-vendor.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-sec-vendor.conf \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nfc/BRI/sec_s3nrn82_rfreg.bin:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/BRI/sec_s3nrn82_rfreg.bin \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nfc/sec_s3nrn82_rfreg.bin:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/sec_s3nrn82_rfreg.bin \
+    vendor/samsung/a3y17lte/proprietary/vendor/etc/nfc/sec_s3nrn81_rfreg.bin:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/sec_s3nrn81_rfreg.bin \
+    vendor/samsung/a3y17lte/proprietary/vendor/etc/nfc/sec_s3nrn81_rfreg.fl:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/sec_s3nrn81_rfreg.fl \
     vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/AzControlParams_SPEAKER.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/AzControlParams_SPEAKER.txt \
     vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/LVAZFS_Configuration.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/LVAZFS_Configuration.txt \
     vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/speechassist/BargeIn/Tx_ControlParams_WIDEBAND_ANALOG_DOCK.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/speechassist/BargeIn/Tx_ControlParams_WIDEBAND_ANALOG_DOCK.txt \
@@ -201,14 +209,14 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/mVoIPSec/Tx_ControlParams_WIDEBAND_SPEAKER.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/mVoIPSec/Tx_ControlParams_WIDEBAND_SPEAKER.txt \
     vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/mVoIPSec/Tx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/mVoIPSec/Tx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt \
     vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/mVoIPSec/Tx_ControlParams_WIDEBAND_WIRED_HEADSET.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/mVoIPSec/Tx_ControlParams_WIDEBAND_WIRED_HEADSET.txt \
+    vendor/samsung/a3y17lte/proprietary/vendor/firmware/nfc/sec_s3nrn81_firmware.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nfc/sec_s3nrn81_firmware.bin \
+    vendor/samsung/a3y17lte/proprietary/vendor/firmware/nfc/sec_s3nrn81_firmware.fl:$(TARGET_COPY_OUT_VENDOR)/firmware/nfc/sec_s3nrn81_firmware.fl \
     vendor/samsung/a3y17lte/proprietary/vendor/lib/hw/audio.primary.exynos7870.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.exynos7870.so \
     vendor/samsung/a3y17lte/proprietary/vendor/lib/libaudioroute.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioroute.so \
     vendor/samsung/a3y17lte/proprietary/vendor/lib/libtinyalsa.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtinyalsa.so
 
 PRODUCT_PACKAGES += \
     libaptX_encoder \
-    com.qualcomm.qti.ant@1.0 \
-    libantradio \
     vendor.samsung.hardware.bluetooth@1.0 \
     android.hardware.bluetooth@1.0-impl-qti \
     com.qualcomm.qti.ant@1.0-impl \

@@ -22,46 +22,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "com.qualcomm.qti.ant@1.0",
-	owner: "samsung",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/com.qualcomm.qti.ant@1.0.so"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/com.qualcomm.qti.ant@1.0.so"],
-		},
-	},
-	compile_multilib: "both",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libantradio",
-	owner: "samsung",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libantradio.so"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libantradio.so"],
-		},
-	},
-	compile_multilib: "both",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "vendor.samsung.hardware.bluetooth@1.0",
 	owner: "samsung",
 	strip: {
