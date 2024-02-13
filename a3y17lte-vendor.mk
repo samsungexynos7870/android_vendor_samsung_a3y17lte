@@ -50,198 +50,28 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a3y17lte/proprietary/vendor/firmware/setfile_imx258.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_imx258.bin \
     vendor/samsung/a3y17lte/proprietary/vendor/lib/libMcClient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMcClient.so \
     vendor/samsung/a3y17lte/proprietary/vendor/lib/libMcRegistry.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMcRegistry.so \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/Tfa9896.cnt:$(TARGET_COPY_OUT_VENDOR)/etc/Tfa9896.cnt \
     vendor/samsung/a3y17lte/proprietary/vendor/etc/init/sec.android.hardware.nfc@1.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/sec.android.hardware.nfc@1.2-service.rc \
     vendor/samsung/a3y17lte/proprietary/vendor/etc/libnfc-sec-vendor.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-sec-vendor.conf \
     vendor/samsung/a3y17lte/proprietary/vendor/etc/nfc/sec_s3nrn81_rfreg.bin:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/sec_s3nrn81_rfreg.bin \
     vendor/samsung/a3y17lte/proprietary/vendor/etc/nfc/sec_s3nrn81_rfreg.fl:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/sec_s3nrn81_rfreg.fl \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/AzControlParams_SPEAKER.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/AzControlParams_SPEAKER.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/LVAZFS_Configuration.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/LVAZFS_Configuration.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/speechassist/BargeIn/Tx_ControlParams_WIDEBAND_ANALOG_DOCK.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/speechassist/BargeIn/Tx_ControlParams_WIDEBAND_ANALOG_DOCK.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/speechassist/BargeIn/Tx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/speechassist/BargeIn/Tx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/speechassist/BargeIn/Tx_ControlParams_WIDEBAND_EARPIECE.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/speechassist/BargeIn/Tx_ControlParams_WIDEBAND_EARPIECE.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/speechassist/BargeIn/Tx_ControlParams_WIDEBAND_SPEAKER.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/speechassist/BargeIn/Tx_ControlParams_WIDEBAND_SPEAKER.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/speechassist/BargeIn/Tx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/speechassist/BargeIn/Tx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/speechassist/BargeIn/Tx_ControlParams_WIDEBAND_WIRED_HEADSET.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/speechassist/BargeIn/Tx_ControlParams_WIDEBAND_WIRED_HEADSET.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/speechassist/BargeInDriving/Tx_ControlParams_WIDEBAND_ANALOG_DOCK.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/speechassist/BargeInDriving/Tx_ControlParams_WIDEBAND_ANALOG_DOCK.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/speechassist/BargeInDriving/Tx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/speechassist/BargeInDriving/Tx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/speechassist/BargeInDriving/Tx_ControlParams_WIDEBAND_EARPIECE.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/speechassist/BargeInDriving/Tx_ControlParams_WIDEBAND_EARPIECE.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/speechassist/BargeInDriving/Tx_ControlParams_WIDEBAND_SPEAKER.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/speechassist/BargeInDriving/Tx_ControlParams_WIDEBAND_SPEAKER.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/speechassist/BargeInDriving/Tx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/speechassist/BargeInDriving/Tx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/speechassist/BargeInDriving/Tx_ControlParams_WIDEBAND_WIRED_HEADSET.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/speechassist/BargeInDriving/Tx_ControlParams_WIDEBAND_WIRED_HEADSET.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/speechassist/LVVEFS_Rx_Configuration.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/speechassist/LVVEFS_Rx_Configuration.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/speechassist/LVVEFS_Tx_Configuration.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/speechassist/LVVEFS_Tx_Configuration.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/speechassist/default/Rx_ControlParams_EARPIECE_16000Hz.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/speechassist/default/Rx_ControlParams_EARPIECE_16000Hz.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/speechassist/default/Rx_ControlParams_SPEAKER_16000Hz.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/speechassist/default/Rx_ControlParams_SPEAKER_16000Hz.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/speechassist/default/Tx_ControlParams_EARPIECE_16000Hz.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/speechassist/default/Tx_ControlParams_EARPIECE_16000Hz.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/speechassist/default/Tx_ControlParams_SPEAKER_16000Hz.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/speechassist/default/Tx_ControlParams_SPEAKER_16000Hz.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/LVVEFS_Rx_Configuration.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/LVVEFS_Rx_Configuration.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/LVVEFS_Tx_Configuration.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/LVVEFS_Tx_Configuration.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/VideoTelephony/Rx_ControlParams_NARROWBAND_BLUETOOTH_SCO_HEADSET.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/VideoTelephony/Rx_ControlParams_NARROWBAND_BLUETOOTH_SCO_HEADSET.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/VideoTelephony/Rx_ControlParams_NARROWBAND_BLUETOOTH_SCO_HEADSET_NREC_ON.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/VideoTelephony/Rx_ControlParams_NARROWBAND_BLUETOOTH_SCO_HEADSET_NREC_ON.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/VideoTelephony/Rx_ControlParams_NARROWBAND_EARPIECE.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/VideoTelephony/Rx_ControlParams_NARROWBAND_EARPIECE.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/VideoTelephony/Rx_ControlParams_NARROWBAND_SPEAKER.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/VideoTelephony/Rx_ControlParams_NARROWBAND_SPEAKER.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/VideoTelephony/Rx_ControlParams_NARROWBAND_WIRED_HEADPHONE.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/VideoTelephony/Rx_ControlParams_NARROWBAND_WIRED_HEADPHONE.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/VideoTelephony/Rx_ControlParams_NARROWBAND_WIRED_HEADSET.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/VideoTelephony/Rx_ControlParams_NARROWBAND_WIRED_HEADSET.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/VideoTelephony/Rx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/VideoTelephony/Rx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/VideoTelephony/Rx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET_NREC_ON.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/VideoTelephony/Rx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET_NREC_ON.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/VideoTelephony/Rx_ControlParams_WIDEBAND_EARPIECE.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/VideoTelephony/Rx_ControlParams_WIDEBAND_EARPIECE.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/VideoTelephony/Rx_ControlParams_WIDEBAND_SPEAKER.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/VideoTelephony/Rx_ControlParams_WIDEBAND_SPEAKER.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/VideoTelephony/Rx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/VideoTelephony/Rx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/VideoTelephony/Rx_ControlParams_WIDEBAND_WIRED_HEADSET.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/VideoTelephony/Rx_ControlParams_WIDEBAND_WIRED_HEADSET.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/VideoTelephony/Tx_ControlParams_NARROWBAND_BLUETOOTH_SCO_HEADSET.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/VideoTelephony/Tx_ControlParams_NARROWBAND_BLUETOOTH_SCO_HEADSET.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/VideoTelephony/Tx_ControlParams_NARROWBAND_BLUETOOTH_SCO_HEADSET_NREC_ON.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/VideoTelephony/Tx_ControlParams_NARROWBAND_BLUETOOTH_SCO_HEADSET_NREC_ON.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/VideoTelephony/Tx_ControlParams_NARROWBAND_EARPIECE.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/VideoTelephony/Tx_ControlParams_NARROWBAND_EARPIECE.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/VideoTelephony/Tx_ControlParams_NARROWBAND_SPEAKER.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/VideoTelephony/Tx_ControlParams_NARROWBAND_SPEAKER.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/VideoTelephony/Tx_ControlParams_NARROWBAND_WIRED_HEADPHONE.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/VideoTelephony/Tx_ControlParams_NARROWBAND_WIRED_HEADPHONE.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/VideoTelephony/Tx_ControlParams_NARROWBAND_WIRED_HEADSET.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/VideoTelephony/Tx_ControlParams_NARROWBAND_WIRED_HEADSET.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/VideoTelephony/Tx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/VideoTelephony/Tx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/VideoTelephony/Tx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET_NREC_ON.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/VideoTelephony/Tx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET_NREC_ON.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/VideoTelephony/Tx_ControlParams_WIDEBAND_EARPIECE.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/VideoTelephony/Tx_ControlParams_WIDEBAND_EARPIECE.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/VideoTelephony/Tx_ControlParams_WIDEBAND_SPEAKER.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/VideoTelephony/Tx_ControlParams_WIDEBAND_SPEAKER.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/VideoTelephony/Tx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/VideoTelephony/Tx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/VideoTelephony/Tx_ControlParams_WIDEBAND_WIRED_HEADSET.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/VideoTelephony/Tx_ControlParams_WIDEBAND_WIRED_HEADSET.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/WifiCalling/Rx_ControlParams_NARROWBAND_BLUETOOTH_SCO_HEADSET.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/WifiCalling/Rx_ControlParams_NARROWBAND_BLUETOOTH_SCO_HEADSET.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/WifiCalling/Rx_ControlParams_NARROWBAND_BLUETOOTH_SCO_HEADSET_NREC_ON.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/WifiCalling/Rx_ControlParams_NARROWBAND_BLUETOOTH_SCO_HEADSET_NREC_ON.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/WifiCalling/Rx_ControlParams_NARROWBAND_EARPIECE.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/WifiCalling/Rx_ControlParams_NARROWBAND_EARPIECE.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/WifiCalling/Rx_ControlParams_NARROWBAND_SPEAKER.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/WifiCalling/Rx_ControlParams_NARROWBAND_SPEAKER.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/WifiCalling/Rx_ControlParams_NARROWBAND_WIRED_HEADPHONE.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/WifiCalling/Rx_ControlParams_NARROWBAND_WIRED_HEADPHONE.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/WifiCalling/Rx_ControlParams_NARROWBAND_WIRED_HEADSET.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/WifiCalling/Rx_ControlParams_NARROWBAND_WIRED_HEADSET.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/WifiCalling/Rx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/WifiCalling/Rx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/WifiCalling/Rx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET_NREC_ON.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/WifiCalling/Rx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET_NREC_ON.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/WifiCalling/Rx_ControlParams_WIDEBAND_EARPIECE.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/WifiCalling/Rx_ControlParams_WIDEBAND_EARPIECE.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/WifiCalling/Rx_ControlParams_WIDEBAND_SPEAKER.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/WifiCalling/Rx_ControlParams_WIDEBAND_SPEAKER.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/WifiCalling/Rx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/WifiCalling/Rx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/WifiCalling/Rx_ControlParams_WIDEBAND_WIRED_HEADSET.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/WifiCalling/Rx_ControlParams_WIDEBAND_WIRED_HEADSET.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/WifiCalling/Tx_ControlParams_NARROWBAND_BLUETOOTH_SCO_HEADSET.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/WifiCalling/Tx_ControlParams_NARROWBAND_BLUETOOTH_SCO_HEADSET.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/WifiCalling/Tx_ControlParams_NARROWBAND_BLUETOOTH_SCO_HEADSET_NREC_ON.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/WifiCalling/Tx_ControlParams_NARROWBAND_BLUETOOTH_SCO_HEADSET_NREC_ON.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/WifiCalling/Tx_ControlParams_NARROWBAND_EARPIECE.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/WifiCalling/Tx_ControlParams_NARROWBAND_EARPIECE.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/WifiCalling/Tx_ControlParams_NARROWBAND_SPEAKER.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/WifiCalling/Tx_ControlParams_NARROWBAND_SPEAKER.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/WifiCalling/Tx_ControlParams_NARROWBAND_WIRED_HEADPHONE.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/WifiCalling/Tx_ControlParams_NARROWBAND_WIRED_HEADPHONE.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/WifiCalling/Tx_ControlParams_NARROWBAND_WIRED_HEADSET.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/WifiCalling/Tx_ControlParams_NARROWBAND_WIRED_HEADSET.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/WifiCalling/Tx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/WifiCalling/Tx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/WifiCalling/Tx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET_NREC_ON.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/WifiCalling/Tx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET_NREC_ON.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/WifiCalling/Tx_ControlParams_WIDEBAND_EARPIECE.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/WifiCalling/Tx_ControlParams_WIDEBAND_EARPIECE.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/WifiCalling/Tx_ControlParams_WIDEBAND_SPEAKER.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/WifiCalling/Tx_ControlParams_WIDEBAND_SPEAKER.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/WifiCalling/Tx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/WifiCalling/Tx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/WifiCalling/Tx_ControlParams_WIDEBAND_WIRED_HEADSET.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/WifiCalling/Tx_ControlParams_WIDEBAND_WIRED_HEADSET.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/WifiCallingHAC/Rx_ControlParams_NARROWBAND_BLUETOOTH_SCO_HEADSET.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/WifiCallingHAC/Rx_ControlParams_NARROWBAND_BLUETOOTH_SCO_HEADSET.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/WifiCallingHAC/Rx_ControlParams_NARROWBAND_BLUETOOTH_SCO_HEADSET_NREC_ON.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/WifiCallingHAC/Rx_ControlParams_NARROWBAND_BLUETOOTH_SCO_HEADSET_NREC_ON.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/WifiCallingHAC/Rx_ControlParams_NARROWBAND_EARPIECE.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/WifiCallingHAC/Rx_ControlParams_NARROWBAND_EARPIECE.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/WifiCallingHAC/Rx_ControlParams_NARROWBAND_SPEAKER.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/WifiCallingHAC/Rx_ControlParams_NARROWBAND_SPEAKER.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/WifiCallingHAC/Rx_ControlParams_NARROWBAND_WIRED_HEADPHONE.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/WifiCallingHAC/Rx_ControlParams_NARROWBAND_WIRED_HEADPHONE.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/WifiCallingHAC/Rx_ControlParams_NARROWBAND_WIRED_HEADSET.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/WifiCallingHAC/Rx_ControlParams_NARROWBAND_WIRED_HEADSET.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/WifiCallingHAC/Rx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/WifiCallingHAC/Rx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/WifiCallingHAC/Rx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET_NREC_ON.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/WifiCallingHAC/Rx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET_NREC_ON.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/WifiCallingHAC/Rx_ControlParams_WIDEBAND_EARPIECE.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/WifiCallingHAC/Rx_ControlParams_WIDEBAND_EARPIECE.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/WifiCallingHAC/Rx_ControlParams_WIDEBAND_SPEAKER.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/WifiCallingHAC/Rx_ControlParams_WIDEBAND_SPEAKER.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/WifiCallingHAC/Rx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/WifiCallingHAC/Rx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/WifiCallingHAC/Rx_ControlParams_WIDEBAND_WIRED_HEADSET.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/WifiCallingHAC/Rx_ControlParams_WIDEBAND_WIRED_HEADSET.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/WifiCallingHAC/Tx_ControlParams_NARROWBAND_BLUETOOTH_SCO_HEADSET.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/WifiCallingHAC/Tx_ControlParams_NARROWBAND_BLUETOOTH_SCO_HEADSET.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/WifiCallingHAC/Tx_ControlParams_NARROWBAND_BLUETOOTH_SCO_HEADSET_NREC_ON.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/WifiCallingHAC/Tx_ControlParams_NARROWBAND_BLUETOOTH_SCO_HEADSET_NREC_ON.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/WifiCallingHAC/Tx_ControlParams_NARROWBAND_EARPIECE.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/WifiCallingHAC/Tx_ControlParams_NARROWBAND_EARPIECE.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/WifiCallingHAC/Tx_ControlParams_NARROWBAND_SPEAKER.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/WifiCallingHAC/Tx_ControlParams_NARROWBAND_SPEAKER.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/WifiCallingHAC/Tx_ControlParams_NARROWBAND_WIRED_HEADPHONE.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/WifiCallingHAC/Tx_ControlParams_NARROWBAND_WIRED_HEADPHONE.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/WifiCallingHAC/Tx_ControlParams_NARROWBAND_WIRED_HEADSET.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/WifiCallingHAC/Tx_ControlParams_NARROWBAND_WIRED_HEADSET.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/WifiCallingHAC/Tx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/WifiCallingHAC/Tx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/WifiCallingHAC/Tx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET_NREC_ON.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/WifiCallingHAC/Tx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET_NREC_ON.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/WifiCallingHAC/Tx_ControlParams_WIDEBAND_EARPIECE.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/WifiCallingHAC/Tx_ControlParams_WIDEBAND_EARPIECE.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/WifiCallingHAC/Tx_ControlParams_WIDEBAND_SPEAKER.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/WifiCallingHAC/Tx_ControlParams_WIDEBAND_SPEAKER.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/WifiCallingHAC/Tx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/WifiCallingHAC/Tx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/WifiCallingHAC/Tx_ControlParams_WIDEBAND_WIRED_HEADSET.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/WifiCallingHAC/Tx_ControlParams_WIDEBAND_WIRED_HEADSET.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/mVoIP/Rx_ControlParams_NARROWBAND_BLUETOOTH_SCO_HEADSET.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/mVoIP/Rx_ControlParams_NARROWBAND_BLUETOOTH_SCO_HEADSET.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/mVoIP/Rx_ControlParams_NARROWBAND_EARPIECE.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/mVoIP/Rx_ControlParams_NARROWBAND_EARPIECE.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/mVoIP/Rx_ControlParams_NARROWBAND_SPEAKER.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/mVoIP/Rx_ControlParams_NARROWBAND_SPEAKER.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/mVoIP/Rx_ControlParams_NARROWBAND_WIRED_HEADPHONE.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/mVoIP/Rx_ControlParams_NARROWBAND_WIRED_HEADPHONE.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/mVoIP/Rx_ControlParams_NARROWBAND_WIRED_HEADSET.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/mVoIP/Rx_ControlParams_NARROWBAND_WIRED_HEADSET.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/mVoIP/Rx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/mVoIP/Rx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/mVoIP/Rx_ControlParams_WIDEBAND_EARPIECE.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/mVoIP/Rx_ControlParams_WIDEBAND_EARPIECE.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/mVoIP/Rx_ControlParams_WIDEBAND_SPEAKER.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/mVoIP/Rx_ControlParams_WIDEBAND_SPEAKER.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/mVoIP/Rx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/mVoIP/Rx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/mVoIP/Rx_ControlParams_WIDEBAND_WIRED_HEADSET.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/mVoIP/Rx_ControlParams_WIDEBAND_WIRED_HEADSET.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/mVoIP/Tx_ControlParams_NARROWBAND_BLUETOOTH_SCO_HEADSET.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/mVoIP/Tx_ControlParams_NARROWBAND_BLUETOOTH_SCO_HEADSET.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/mVoIP/Tx_ControlParams_NARROWBAND_EARPIECE.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/mVoIP/Tx_ControlParams_NARROWBAND_EARPIECE.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/mVoIP/Tx_ControlParams_NARROWBAND_SPEAKER.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/mVoIP/Tx_ControlParams_NARROWBAND_SPEAKER.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/mVoIP/Tx_ControlParams_NARROWBAND_WIRED_HEADPHONE.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/mVoIP/Tx_ControlParams_NARROWBAND_WIRED_HEADPHONE.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/mVoIP/Tx_ControlParams_NARROWBAND_WIRED_HEADSET.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/mVoIP/Tx_ControlParams_NARROWBAND_WIRED_HEADSET.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/mVoIP/Tx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/mVoIP/Tx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/mVoIP/Tx_ControlParams_WIDEBAND_EARPIECE.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/mVoIP/Tx_ControlParams_WIDEBAND_EARPIECE.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/mVoIP/Tx_ControlParams_WIDEBAND_SPEAKER.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/mVoIP/Tx_ControlParams_WIDEBAND_SPEAKER.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/mVoIP/Tx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/mVoIP/Tx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/mVoIP/Tx_ControlParams_WIDEBAND_WIRED_HEADSET.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/mVoIP/Tx_ControlParams_WIDEBAND_WIRED_HEADSET.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/mVoIPFMC/Rx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/mVoIPFMC/Rx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/mVoIPFMC/Rx_ControlParams_WIDEBAND_EARPIECE.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/mVoIPFMC/Rx_ControlParams_WIDEBAND_EARPIECE.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/mVoIPFMC/Rx_ControlParams_WIDEBAND_SPEAKER.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/mVoIPFMC/Rx_ControlParams_WIDEBAND_SPEAKER.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/mVoIPFMC/Rx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/mVoIPFMC/Rx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/mVoIPFMC/Rx_ControlParams_WIDEBAND_WIRED_HEADSET.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/mVoIPFMC/Rx_ControlParams_WIDEBAND_WIRED_HEADSET.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/mVoIPFMC/Tx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/mVoIPFMC/Tx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/mVoIPFMC/Tx_ControlParams_WIDEBAND_EARPIECE.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/mVoIPFMC/Tx_ControlParams_WIDEBAND_EARPIECE.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/mVoIPFMC/Tx_ControlParams_WIDEBAND_SPEAKER.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/mVoIPFMC/Tx_ControlParams_WIDEBAND_SPEAKER.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/mVoIPFMC/Tx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/mVoIPFMC/Tx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/mVoIPFMC/Tx_ControlParams_WIDEBAND_WIRED_HEADSET.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/mVoIPFMC/Tx_ControlParams_WIDEBAND_WIRED_HEADSET.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/mVoIPHAC/Rx_ControlParams_NARROWBAND_BLUETOOTH_SCO_HEADSET.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/mVoIPHAC/Rx_ControlParams_NARROWBAND_BLUETOOTH_SCO_HEADSET.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/mVoIPHAC/Rx_ControlParams_NARROWBAND_EARPIECE.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/mVoIPHAC/Rx_ControlParams_NARROWBAND_EARPIECE.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/mVoIPHAC/Rx_ControlParams_NARROWBAND_SPEAKER.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/mVoIPHAC/Rx_ControlParams_NARROWBAND_SPEAKER.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/mVoIPHAC/Rx_ControlParams_NARROWBAND_WIRED_HEADPHONE.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/mVoIPHAC/Rx_ControlParams_NARROWBAND_WIRED_HEADPHONE.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/mVoIPHAC/Rx_ControlParams_NARROWBAND_WIRED_HEADSET.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/mVoIPHAC/Rx_ControlParams_NARROWBAND_WIRED_HEADSET.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/mVoIPHAC/Rx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/mVoIPHAC/Rx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/mVoIPHAC/Rx_ControlParams_WIDEBAND_EARPIECE.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/mVoIPHAC/Rx_ControlParams_WIDEBAND_EARPIECE.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/mVoIPHAC/Rx_ControlParams_WIDEBAND_SPEAKER.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/mVoIPHAC/Rx_ControlParams_WIDEBAND_SPEAKER.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/mVoIPHAC/Rx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/mVoIPHAC/Rx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/mVoIPHAC/Rx_ControlParams_WIDEBAND_WIRED_HEADSET.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/mVoIPHAC/Rx_ControlParams_WIDEBAND_WIRED_HEADSET.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/mVoIPHAC/Tx_ControlParams_NARROWBAND_BLUETOOTH_SCO_HEADSET.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/mVoIPHAC/Tx_ControlParams_NARROWBAND_BLUETOOTH_SCO_HEADSET.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/mVoIPHAC/Tx_ControlParams_NARROWBAND_EARPIECE.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/mVoIPHAC/Tx_ControlParams_NARROWBAND_EARPIECE.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/mVoIPHAC/Tx_ControlParams_NARROWBAND_SPEAKER.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/mVoIPHAC/Tx_ControlParams_NARROWBAND_SPEAKER.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/mVoIPHAC/Tx_ControlParams_NARROWBAND_WIRED_HEADPHONE.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/mVoIPHAC/Tx_ControlParams_NARROWBAND_WIRED_HEADPHONE.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/mVoIPHAC/Tx_ControlParams_NARROWBAND_WIRED_HEADSET.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/mVoIPHAC/Tx_ControlParams_NARROWBAND_WIRED_HEADSET.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/mVoIPHAC/Tx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/mVoIPHAC/Tx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/mVoIPHAC/Tx_ControlParams_WIDEBAND_EARPIECE.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/mVoIPHAC/Tx_ControlParams_WIDEBAND_EARPIECE.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/mVoIPHAC/Tx_ControlParams_WIDEBAND_SPEAKER.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/mVoIPHAC/Tx_ControlParams_WIDEBAND_SPEAKER.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/mVoIPHAC/Tx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/mVoIPHAC/Tx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/mVoIPHAC/Tx_ControlParams_WIDEBAND_WIRED_HEADSET.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/mVoIPHAC/Tx_ControlParams_WIDEBAND_WIRED_HEADSET.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/mVoIPSec/Rx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/mVoIPSec/Rx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/mVoIPSec/Rx_ControlParams_WIDEBAND_EARPIECE.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/mVoIPSec/Rx_ControlParams_WIDEBAND_EARPIECE.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/mVoIPSec/Rx_ControlParams_WIDEBAND_SPEAKER.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/mVoIPSec/Rx_ControlParams_WIDEBAND_SPEAKER.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/mVoIPSec/Rx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/mVoIPSec/Rx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/mVoIPSec/Rx_ControlParams_WIDEBAND_WIRED_HEADSET.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/mVoIPSec/Rx_ControlParams_WIDEBAND_WIRED_HEADSET.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/mVoIPSec/Tx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/mVoIPSec/Tx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/mVoIPSec/Tx_ControlParams_WIDEBAND_EARPIECE.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/mVoIPSec/Tx_ControlParams_WIDEBAND_EARPIECE.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/mVoIPSec/Tx_ControlParams_WIDEBAND_SPEAKER.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/mVoIPSec/Tx_ControlParams_WIDEBAND_SPEAKER.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/mVoIPSec/Tx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/mVoIPSec/Tx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt \
-    vendor/samsung/a3y17lte/proprietary/vendor/etc/nxp/voiceexperience/mVoIPSec/Tx_ControlParams_WIDEBAND_WIRED_HEADSET.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/voiceexperience/mVoIPSec/Tx_ControlParams_WIDEBAND_WIRED_HEADSET.txt \
     vendor/samsung/a3y17lte/proprietary/vendor/firmware/nfc/sec_s3nrn81_firmware.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nfc/sec_s3nrn81_firmware.bin \
-    vendor/samsung/a3y17lte/proprietary/vendor/firmware/nfc/sec_s3nrn81_firmware.fl:$(TARGET_COPY_OUT_VENDOR)/firmware/nfc/sec_s3nrn81_firmware.fl \
-    vendor/samsung/a3y17lte/proprietary/vendor/lib/hw/audio.primary.exynos7870.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.exynos7870.so \
-    vendor/samsung/a3y17lte/proprietary/vendor/lib/libaudioroute.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioroute.so \
-    vendor/samsung/a3y17lte/proprietary/vendor/lib/libtinyalsa.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtinyalsa.so
+    vendor/samsung/a3y17lte/proprietary/vendor/firmware/nfc/sec_s3nrn81_firmware.fl:$(TARGET_COPY_OUT_VENDOR)/firmware/nfc/sec_s3nrn81_firmware.fl
 
 PRODUCT_PACKAGES += \
     libaptX_encoder \
     vendor.samsung.hardware.bluetooth@1.0 \
     android.hardware.bluetooth@1.0-impl-qti \
     com.qualcomm.qti.ant@1.0-impl \
-    camera.vendor.exynos7870 \
     sensors.universal7870 \
-    libexynoscamera \
-    libexynoscamera3 \
-    libstainkiller \
-    libLifevibes_lvverx \
-    libLifevibes_lvvetx \
-    libSamsungPostProcessConvertor \
-    lib_SamsungRec_06006 \
-    lib_SoundAlive_SRC384_ver320 \
-    lib_soundaliveresampler \
+    camera.vendor.exynos7870 \
     libbauthserver \
     libbauthtzcommon \
     libegis_fp_normal_sensor_test \
+    libexynoscamera \
+    libexynoscamera3 \
     libgf_in_system_lib \
-    libpreprocessing_nxp \
     libqfp_sensortest \
-    librecordalive \
-    libsamsungDiamondVoice \
-    libsecaudioinfo \
     libsynaFpSensorTestNwd \
-    libtfa98xx \
     nfc_nci_sec \
     vendor.samsung.hardware.nfc@2.0 \
     android.hardware.bluetooth@1.0-service-qti \
