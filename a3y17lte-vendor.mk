@@ -27,9 +27,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a3y17lte/proprietary/vendor/lib64/libantradio.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libantradio.so \
     vendor/samsung/a3y17lte/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.bluetooth@1.0-service-qti \
     vendor/samsung/a3y17lte/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.0-service-qti.rc \
-    vendor/samsung/a3y17lte/proprietary/system/vendor/etc/nfc/sec_s3nrn81_rfreg.bin:$(TARGET_COPY_OUT_VENDOR)/vendor/etc/nfc/sec_s3nrn81_rfreg.bin \
+    vendor/samsung/a3y17lte/proprietary/vendor/etc/nfc/sec_s3nrn81_rfreg.bin:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/sec_s3nrn81_rfreg.bin \
     vendor/samsung/a3y17lte/proprietary/vendor/firmware/fimc_is_lib.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/fimc_is_lib.bin \
-    vendor/samsung/a3y17lte/proprietary/system/vendor/firmware/nfc/sec_s3nrn81_firmware.bin:$(TARGET_COPY_OUT_VENDOR)/vendor/firmware/nfc/sec_s3nrn81_firmware.bin \
+    vendor/samsung/a3y17lte/proprietary/vendor/firmware/nfc/sec_s3nrn81_firmware.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nfc/sec_s3nrn81_firmware.bin \
     vendor/samsung/a3y17lte/proprietary/vendor/firmware/setfile_imx219.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_imx219.bin \
     vendor/samsung/a3y17lte/proprietary/vendor/firmware/setfile_imx258.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_imx258.bin
 
