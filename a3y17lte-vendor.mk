@@ -38,11 +38,10 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth@1.0-impl-qti \
     com.qualcomm.qti.ant@1.0-impl \
     sensors.universal7870 \
-    libexynoscamera \
-    libexynoscamera3 \
     libbauthserver \
     libbauthtzcommon \
     libegis_fp_normal_sensor_test \
     libgf_in_system_lib \
     libqfp_sensortest \
-    libsynaFpSensorTestNwd
+    libsynaFpSensorTestNwd \
+    AntHalService
