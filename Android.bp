@@ -11,6 +11,7 @@ soong_namespace {
 
 cc_prebuilt_library_shared {
     name: "sensors.universal7870",
+    allow_undefined_symbols: true,
     owner: "samsung",
     strip: {
         none: true,
@@ -151,6 +152,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libqfp_sensortest",
+    allow_undefined_symbols: true,
     owner: "samsung",
     strip: {
         none: true,
@@ -178,6 +180,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsynaFpSensorTestNwd",
+    allow_undefined_symbols: true,
     owner: "samsung",
     strip: {
         none: true,
